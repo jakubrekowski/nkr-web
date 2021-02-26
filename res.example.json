@@ -1,0 +1,46 @@
+{
+	"unit": {
+		"number": "195",
+		"model": {
+			"id": "5ff1d78da7b11b000bb1bea7",
+			"modelName": "fablok-sm30",
+			"factoryType": "Ls300",
+			"yearsOfConstruction": "1957 - 1978",
+			"axleArrangement": "Bo'Bo'",
+			"serviceWeight": "36 t",
+			"length": "10 140 mm",
+			"width": "3 130 mm",
+			"height": "4 300 mm",
+			"wheelDiameter": "850 mm",
+			"traction": "Spalinowa",
+			"typeOfEngines": "3DVSRa-350 Wola V-Roka 300",
+			"fuelTankCapacity": "750 l",
+			"ratedPower": "220 kW",
+			"maximumTractivePower": "75 kN",
+			"typeOfTransmission": "elektryczna",
+			"designSpeed": "60 km/h",
+			"axleLoadOnTheRail": "9 t",
+			"brakeSystem": "samoczynny Knorra",
+			"multipleControl": "brak",
+			"wrappingSystem": "brak",
+			"manufacturerModel": "1D",
+			"intendentUse": "praca manewrowa",
+			"type": "Lokomotywa",
+			"series": "SM30"
+		},
+		"owner": {
+			"id": "5ff1b541a7b11b000970f82d",
+			"name": "PKP Polskie Linie Kolejowe S.A."
+		},
+		"manufacturer": {
+			"name": "Fablok Chrzanów",
+			"shortName": "Fablok",
+			"country": "PL",
+			"creationDate": "1919",
+			"works": false,
+			"dateOfLiquidation": "2013"
+		},
+		"state": "sprawna",
+		"countryOfOperation": "PL"
+	}
+}

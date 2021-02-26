@@ -1,0 +1,75 @@
+[
+    {
+        "head":"Model",
+        "body":"Ls300"
+    },{
+        "head":"Producent",
+        "body":"Fablok Chrzanów"
+    },{
+        "head":"Lata budowy",
+        "body":"1957 - 1978"
+    },{
+        "head":"Układ osi",
+        "body":"Bo'Bo'"
+    },{
+        "section":true,
+        "name":"Wymiary"
+    },{
+        "head":"Masa służbowa",
+        "body":"36 t"
+    },{
+        "head":"Długość",
+        "body":"10 140 mm"
+    },{
+        "head":"Szerokość",
+        "body":"3 130 mm"
+    },{
+        "head":"Wysokość",
+        "body":"4 300 mm"
+    },{
+        "head":"Średnica kół",
+        "body":"850 mm"
+    },{
+        "section":true,
+        "name":"Napęd"
+    },{
+        "head":"Trakcja",
+        "body":"Spalinowa"
+    },{
+        "head":"Typ silników",
+        "body":"3DVSRa-350 Wola V-Roka 300"
+    },{
+        "head":"Pojemność zbiornika paliwa",
+        "body":"750 l"
+    },{
+        "section":true,
+        "name":"Parametry eksploatacyjne"
+    },{
+        "head":"Moc znamionowa",
+        "body":"220 kW"
+    },{
+        "head":"Maksymalna moc pociągowa",
+        "body":"75 kN"
+    },{
+        "head":"Rodzaj przekładni",
+        "body":"elektryczna"
+    },{
+        "head":"Prędkość konstrukcyjna",
+        "body":"60 km/h"
+    },{
+        "head":"Nacisk osi na szyny",
+        "body":"9 t"
+    },{
+        "head":"System hamulca",
+        "body":"samoczynny Knorra"
+    },{
+        "section":true,
+        "name":"Parametry użytkowe"
+    },{
+        "head":"Sterowanie wielokrotne",
+        "body":"brak"
+    },{
+        "head":"System ogrzewania",
+        "body":"brak"
+    }
+]
