@@ -35,10 +35,10 @@
 <footer class="flex flex-row justify-between py-4 mt-8">
     <div class="flex flex-row">
         <div class="text-gray-light">
-            &copy; 2021 {content.footer.by} <a href="https://unoff.pl/" target="_blank">unoff.pl</a>
+            &copy; {new Date().getUTCFullYear()} {content.footer.by} <a href="https://unoff.pl/" target="_blank">unoff.pl</a>
         </div>
         <div class="ml-12">
-            <a href="#" class="mr-3">{content.footer.contentSharing}</a>
+            <a href="/support/sharing" class="mr-3">{content.footer.contentSharing}</a>
             <a href="#" class="mr-3">{content.footer.listOfAuthors}</a>
             <a href="#" class="mr-3">{content.footer.contact}</a>
         </div>

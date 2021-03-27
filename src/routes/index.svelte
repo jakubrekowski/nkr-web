@@ -25,6 +25,9 @@
 				country
 			}
 			state
+			heroImage {
+				id
+			}
 		}
 	}
 	`
@@ -41,13 +44,12 @@
 		return await response.json()
 	})().then((response) =>{
 		const resData = response.data.units;
-		// console.error(resData);
 		
 		let toPrint = []
 
 		resData.forEach(elem => {
 			toPrint.push({
-				image: '/sm30-195.jpg',
+				image: `http://localhost:8000/img/${elem.heroImage.id}`,
 				owner: elem.owner.name,
 				name: `${elem.model.series} ${elem.number}: ${elem.model.type} / ${elem.model.intendentUse}`,
 				model: `${elem.manufacturer.shortName} ${elem.model.factoryType}`,
@@ -55,24 +57,24 @@
 			})
 		})
 
-		console.log(typeof toPrint, toPrint)
-
 		return toPrint
 	})
-
-	console.log(typeof data, data)
 </script>
 
 <style>
 	
 </style>
 
+<svelte:head>
+	<title>Naturalna Kolej Rzeczy - Baza kolejowa</title>
+</svelte:head>
+
 <main>
 	<Navbar/>
 	<SearchBar/>
 	<div class="results">
 		{#await data}
-			Ładownie torów
+			Ładownie torów...
 		{:then list} 
 			{#each list as result}
 				<div class="mb-6">
