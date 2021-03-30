@@ -119,6 +119,24 @@
 
 		imagePreviewIndex--;
 	}
+
+	function handleKeydown(event) {
+		const key = event.key;
+
+		if (displayImagePreviwe === '') {
+			switch (key) {
+			case 'ArrowRight':
+				nextImagePreview();
+				break;
+			case 'ArrowLeft':
+				previousImagePreview();
+				break;
+			case 'Escape':
+				displayImagePreviwe = 'hidden';
+				break;
+		}
+		}
+	}
 </script>
 
 <style>
@@ -213,6 +231,8 @@
 	}
 
 </style>
+
+<svelte:window on:keydown={handleKeydown}/>
 
 <svelte:head>
 	<title>{title}</title>
